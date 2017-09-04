@@ -20,7 +20,7 @@ body {
 	display: flex;
 	flex-wrap: row wrap;
 	width: 100%;
-	height: calc(100% - 3.5em);
+	height: calc(100% - 24px);
 }
 .sidebar {
 	width: 4.5em;
@@ -28,14 +28,16 @@ body {
 	-webkit-flex: none;
 	flex: none;
 	position: relative;
+	top: 20px;
 }
 .plane {
  	-webkit-flex: 1;
  	flex: 1 1 auto;
     position: absolute;
 	width: calc(100% - 4.5em);
-	height: calc(100% - 3.5em);
-	left: 4.5em; top: 20px;
+	height: calc(100% - (24px + 2em));
+	left: 4.5em;
+	top: 24px;
 }
 .statusbar {
 	width: 100%;

@@ -9,8 +9,8 @@ iframe {
     height: 100%;
 }
 body {
-  background-color: #e6f3ff;
-  color: #343476;
+  background-color: #ebf3f9;
+  color: #163550;
 }
 .navbar {
 	margin-bottom: 0px !important;
@@ -42,15 +42,15 @@ body {
 .statusbar {
 	width: 100%;
 	height: 2em;
-	background: #0084ff;
+	background: #4c91cd;
 	color: #fec600;
 	position: relative;
 }
 .lm_header .lm_tab {
-	background: #cce6ff;
+	background: #c3daee;
 }
 .lm_header .lm_active {
-    background: #99ceff;
+    background: #9cc2e3;
 }
 .list-group-item {
   background: none !important;
@@ -99,7 +99,7 @@ nav.navbar .dropdown-menu{
   /*top: 1px;  */
 }
 .lm_header, .lm_splitter{
-  background-color: #cce6ff;
+  background-color: #c3daee;
 }
 .lm_splitter{
   opacity: inherit;
@@ -142,7 +142,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .view {
-	background-color: #e6f3ff;
+	background-color: #ebf3f9;
 	color: #343436;
 }
 
@@ -166,7 +166,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
   flex: 1 1 auto;
   max-width: 15%;
   padding: 2px 5px;
-  background: #cce6ff;
+  background: #c3daee;
 }
 .value {
   flex: 2 1 auto;
@@ -179,7 +179,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
   background: #b3daff;
 }
 .striped-container .striped-item:nth-of-type(odd) .value {
-  background: #cce6ff;
+  background: #c3daee;
 }
 .striped-item:hover .value {
   background: rgba(210, 210, 210, 0.85);
@@ -189,7 +189,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .modal {
-	color: #cce6ff;
+	color: #c3daee;
 }
 .modal-backdrop.in{
 	opacity:.7;filter:alpha(opacity=50)

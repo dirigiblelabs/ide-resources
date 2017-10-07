@@ -1,6 +1,6 @@
 .textview {
-	color: #00284d;
-	background-color: #e6f3ff;
+	color: #163550;
+	background-color: #ebf3f9;
 	font-family: "Consolas", "Menlo", "Monaco", "Vera Mono", monospace;
 	font-size: 12px;
 	min-width: 50px;
@@ -1774,7 +1774,7 @@ a:hover {
 }
 .checkedRow {
 	color: white !important;
-	background-color: #1bb199 !important;
+	background-color: #2d6a9f !important;
 }
 .checkedRow.disabledRow {
 	background-color: #dadada !important;
@@ -1836,7 +1836,7 @@ a:hover {
 	color: #FFFFFF !important;
 	font-weight: bold;
 	position: relative;
-	background: #1bb199 !important;
+	background: #2d6a9f !important;
 }
 .breadcrumbContainer {
 	align-items: baseline;
@@ -2041,8 +2041,8 @@ a.breadcrumb.currentLocation {
 	color: #cdcdcd;
 }
 .primaryButton{
-	background: #1bb199;
-	border-color: #1bb199;
+	background: #2d6a9f;
+	border-color: #2d6a9f;
 	color: white;
 }
 .primaryButton:hover {
@@ -2328,7 +2328,7 @@ a.breadcrumb.currentLocation {
 }
 .dropdownMenu .dropdownMenuItemSelected {
 	background-color: rgba(16,106,91, 0.1);
-	border-left-color: #1BB199;
+	border-left-color: #2d6a9f;
 }
 .dropdownMenuItem .check {
 	display: inline-block;
@@ -2672,7 +2672,7 @@ a.breadcrumb.currentLocation {
 }
 .orionSwitchInner.sprite-switch-check-x:before{
 	color: white;
-	background-color: #1bb199;
+	background-color: #2d6a9f;
 	content: '\e050'; 
 	font-family: 'Orion Icon Font';
 	margin-top: -3px;
@@ -2691,7 +2691,7 @@ a.breadcrumb.currentLocation {
 	color: #333 !important;	
 }
 .outlineExplorer .treeIterationCursorRow_Dotted {
-	background-color: #1BB199;
+	background-color: #2d6a9f;
 }
 .outlineExplorer .treeIterationCursorRow_Dotted .modelDecorationSprite {
 	color: white;
@@ -2700,8 +2700,8 @@ a.breadcrumb.currentLocation {
 	color: white !important;
 }
 .contentassist .selected {
-	background-color: #1a90ff;
-	background: #1a90ff;
+	background-color: #2d6a9f;
+	background: #2d6a9f;
 	border-radius: 0; 
 	color: #FFF;
 }
@@ -2753,7 +2753,7 @@ a.breadcrumb.currentLocation {
 }
 .dragOver {
 	color: white !important;
-	background: #1bb199;
+	background: #2d6a9f;
 	outline: #AAA 2px dotted !important;
 }
 .iconFunction {
@@ -2868,11 +2868,11 @@ html[dir="rtl"] .parametersDismiss {
 	min-width: 16px;
 }
 .githubCloneAuth .dismissButton {
-	color: #1bb199;
+	color: #2d6a9f;
 	margin-left: 0;
 }
 .githubCloneAuth .dismissButton:hover {
-	color: #1bb199;
+	color: #2d6a9f;
 }
 .parametersDismiss .core-sprite-close {
 	margin-right: 0;

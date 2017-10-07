@@ -1,0 +1,14 @@
+body {
+	background-color: #e6f3ff;
+}
+.ace-tm {
+	background-color: #e6f3ff;
+}
+.ace-tm .ace_gutter {
+    background: #b3daff;
+    color: #333;
+}
+
+.ace-tm .ace_gutter-active-line {
+    background: #80c1ff;
+}

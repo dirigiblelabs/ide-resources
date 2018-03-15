@@ -435,7 +435,7 @@
 	color: #314dce;
 }
 .support {
-	color: #21439c;
+	color: #82a4fb;
 }
 .variable {
 	color: #0000c0;
@@ -500,7 +500,7 @@
 }
 .cm-meta { color: #00008F; }
 .cm-keyword { font-weight: bold; color: #7F0055; }
-.cm-atom { color: #21439c; }
+.cm-atom { color: #82a4fb; }
 .cm-number { color: black; }
 .cm-def { color: green; }
 .cm-variable { color: black; }

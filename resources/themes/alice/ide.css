@@ -95,6 +95,7 @@ nav.navbar .dropdown-menu{
 .navbar-inverse .navbar-nav>.open>a:focus, 
 .navbar-inverse .navbar-nav>.open>a:hover{
   background-color: transparent;
+  color: black;
 }
 
 .lm_header,

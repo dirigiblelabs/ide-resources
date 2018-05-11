@@ -108,7 +108,7 @@ nav.navbar .dropdown-menu{
 .lm_header .lm_tab.lm_active{
   box-shadow: none;
   padding-bottom: 4px;
-  background-color: #d1d7e0;
+  background: linear-gradient(#ffffff, #e0e4eb, #ffffff);
   color: #000000
 }
  

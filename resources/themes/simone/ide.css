@@ -9,7 +9,7 @@ iframe {
     height: 100%;
 }
 body {
-  background-color: #ebf3f9;
+  background-color: #eef3f6;
   color: #163550;
   
   --modeler-entity-border: #88b5dd;
@@ -149,7 +149,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .view {
-	background-color: #ebf3f9;
+	background-color: #eef3f6;
 	color: #343436;
 }
 
@@ -234,7 +234,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	width:34px;
 	padding-top:10px;
 	padding-left:4px;
-	background-color:#eeeeee;
+	background-color:#dee6ed;
 	color:#609dd2;
 }
 

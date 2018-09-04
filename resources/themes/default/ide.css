@@ -298,15 +298,16 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 .panel-heading {
     background: url(../../web/resources/images/clouds.jpg) no-repeat center center;
     opacity: 0.85;
-    filter: grayscale(100%) brightness(90%) sepia(100%) hue-rotate(-10deg) saturate(300%) contrast(1.2);
+    filter: grayscale(100%);
 }
 .panel > header {
 	background-color:#337ab7;
 	color: #e1e6ea;
 	background: url(../../web/resources/images/clouds.jpg) no-repeat center center;
 	opacity: 0.85;
-	filter: grayscale(100%) brightness(80%) sepia(100%) hue-rotate(-10deg) saturate(300%) contrast(1.1);
+	filter: grayscale(100%);
 	background-size: cover;
+	border-color: #ba950e;
 }
 .leading {
 	font-size: 38px;
@@ -319,12 +320,16 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 .panel-footer {
     padding: 10px 15px;
-    background-color: #daa50e;
-    color: #333;
-    border-top: 1px solid #a20;
+    background-color: #444446;
+    color: #fee;
+    border-top: 1px solid #343436;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     line-height: 1;
+}
+
+.panel-primary {
+    border-color: #bbb;
 }

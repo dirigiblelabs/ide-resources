@@ -1,4 +1,4 @@
-# Themes for Eclipse Dirigible
+# IDE Resources for Eclipse Dirigible
 
 Themes Resource Plugin for the [Eclipse Dirigible](https://github.com/eclipse/dirigible) v3.x and above.
 

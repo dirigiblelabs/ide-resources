@@ -1,1 +1,0 @@
-var monacoTheme = 'vs-dark';

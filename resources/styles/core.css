@@ -42,6 +42,9 @@ body {
 html {
   font-size: 16px;
 }
+body {
+  background: var(--sapBackgroundColor);
+}
 .dg-hidden {
   display: none;
 }

@@ -175,6 +175,28 @@ body {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
+/* Dialogs and Windows */
+.dg-window-body {
+  padding: 0 !important;
+}
+.dg-window-body>iframe {
+  border: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.dg-window__content {
+  padding: 0;
+  height: 70%;
+  width: 70%;
+  max-width: 1280px;
+  max-height: 768px;
+}
 /* Golden-layout */
 .lm_goldenlayout {
   background: transparent;

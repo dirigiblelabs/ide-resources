@@ -23,10 +23,6 @@ body {
   left: 0;
   z-index: 1000;
 }
-.dg-menubar .fd-menu,
-.fd-menu__sublist {
-  width: auto;
-}
 .dg-hamburger-menu .fd-menu,
 .fd-menu__sublist {
   width: auto;

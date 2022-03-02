@@ -27,6 +27,10 @@ body {
 .fd-menu__sublist {
   width: auto;
 }
+.dg-backdrop-element {
+  /* Just below the dialogs, just above the backdrop */
+  z-index: 210;
+}
 @media only screen and (max-width: 1024px) {
   .dg-menubar {
     display: none;
@@ -192,4 +196,15 @@ body {
   width: 70%;
   max-width: 1280px;
   max-height: 768px;
+}
+.dg-menu__backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Just below the dialogs */
+  z-index: 200;
 }

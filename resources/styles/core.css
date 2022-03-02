@@ -43,7 +43,7 @@ html {
   font-size: 16px;
 }
 body {
-  background: var(--sapBackgroundColor);
+  background: var(--sapBackgroundColor, #f7f7f7);
 }
 .dg-hidden {
   display: none;
@@ -56,7 +56,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 200;
+  z-index: 300;
 }
 iframe {
   display: block;

@@ -38,11 +38,11 @@
   cursor: row-resize;
 }
 .gutter-horizontal {
-  background-color: var(--sapGroup_TitleBorderColor);
+  background-color: var(--sapGroup_TitleBorderColor, #d9d9d9);
   z-index: 1;
 }
 .gutter-vertical {
-  background-color: var(--sapGroup_TitleBorderColor);
+  background-color: var(--sapGroup_TitleBorderColor, #d9d9d9);
   z-index: 0;
 }
 .gutter.gutter-horizontal::after {

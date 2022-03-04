@@ -48,9 +48,9 @@
 .gutter.gutter-horizontal::after {
   content: '';
   height: 100%;
-  width: calc(100% + 6px);
+  width: calc(100% + 3px);
   position: absolute;
-  left: -3px;
+  left: -2px;
 }
 .gutter.gutter-horizontal:hover::after {
   background-color: var(--sapActiveColor, #0854a0);
@@ -59,9 +59,9 @@
 }
 .gutter.gutter-vertical::after {
   content: '';
-  height: calc(100% + 6px);
+  height: calc(100% + 3px);
   position: absolute;
-  top: -3px;
+  top: -2px;
   width: 100%;
 }
 .gutter.gutter-vertical:hover::after {

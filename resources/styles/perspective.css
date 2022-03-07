@@ -17,6 +17,22 @@ body {
   overflow: hidden;
 }
 /* header menus */
+.dg-menu__backdrop {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Just below the dialogs */
+  z-index: 200;
+}
+.dg-menu__sublist--overflow {
+  overflow-y: auto;
+  max-height: 250px;
+}
 .dg-fixed-menu {
   position: fixed;
   top: 0;
@@ -175,6 +191,22 @@ body {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
+/* Context menu */
+.dg-contextmenu-overlay {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Just below the dialogs, just above the backdrop elements */
+  z-index: 220;
+}
+.dg-contextmenu-overlay>.fd-menu {
+  position: fixed;
+}
 /* Dialogs and Windows */
 .dg-window-body {
   padding: 0 !important;
@@ -196,15 +228,4 @@ body {
   width: 70%;
   max-width: 1280px;
   max-height: 768px;
-}
-.dg-menu__backdrop {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* Just below the dialogs */
-  z-index: 200;
 }

@@ -123,6 +123,10 @@
 .fd-tabs-closable .fd-tabs__item .fd-tabs__tag {
   white-space: nowrap;
 }
+.fd-tabs-closable .fd-tabs__item .fd-tabs__tag .description {
+  font-size: .8rem;
+  opacity: 0.7;
+}
 .tabs-list-container .fd-tabs {
   flex-wrap: nowrap;
   flex-grow: 1;

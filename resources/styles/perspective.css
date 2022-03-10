@@ -29,9 +29,17 @@ body {
   /* Just below the dialogs */
   z-index: 200;
 }
+.dg-headermenu--overflow {
+  overflow-y: auto !important;
+  max-height: 90vh;
+  flex-wrap: nowrap;
+  background-color: var(--sapList_Background, #fff);
+}
 .dg-menu__sublist--overflow {
   overflow-y: auto;
-  max-height: 250px;
+  max-height: 264px;
+  flex-wrap: nowrap;
+  background-color: var(--sapList_Background, #fff);
 }
 .dg-fixed-menu {
   position: fixed;
@@ -47,7 +55,7 @@ body {
   /* Just below the dialogs, just above the backdrop */
   z-index: 210;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .dg-menubar {
     display: none;
   }
@@ -55,7 +63,7 @@ body {
     display: none;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1281px) {
   .dg-hamburger-menu {
     display: none;
   }

@@ -137,6 +137,7 @@ body {
   width: 100%;
   min-height: var(--dg-status-bar-height);
   border-radius: 0 !important;
+  border-width: 0 !important;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 8px 0 8px;

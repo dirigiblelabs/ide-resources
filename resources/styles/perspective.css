@@ -94,6 +94,7 @@ body {
   -webkit-box-flex: 3;
   -ms-flex-positive: 3;
   flex-grow: 3;
+  width: 0;
 }
 .dg-perspective-view {
   -webkit-box-sizing: border-box;

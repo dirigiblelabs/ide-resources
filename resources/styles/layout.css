@@ -131,6 +131,9 @@
   font-size: .8rem;
   opacity: 0.7;
 }
+.dg-tabs .fd-tabs.dg-blured .fd-tabs__item[role="tab"] {
+  opacity: 0.7;
+}
 
 /** Accordion View **/
 

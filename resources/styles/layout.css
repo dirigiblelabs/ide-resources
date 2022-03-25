@@ -79,11 +79,7 @@
   flex-grow: 1;
   display: inline-flex;
   box-shadow: none;
-  overflow-x: auto;
-  /* IE and Edge */
-  -ms-overflow-style: none;
-  /* Firefox */
-  scrollbar-width: none;
+  width: 0;
 }
 .dg-tabs .fd-tabs::-webkit-scrollbar {
   display: none;
@@ -99,11 +95,13 @@
 .dg-tabs .fd-tabs .fd-tabs__item .fd-button:focus {
   outline: 0;
 }
-.dg-tabs .fd-tabs .fd-tabs__item .fd-button {
+.dg-tabs .fd-tabs .fd-tabs__item .fd-tabs__tag .fd-button {
   padding: 0;
   min-width: 1rem;
   height: 1rem;
   vertical-align: text-bottom;
+}
+.dg-tabs .fd-tabs .fd-tabs__item .fd-tabs__tag .fd-button {
   visibility: hidden;
 }
 .dg-tabs .fd-tabs .fd-tabs__item .fd-button>[class*="sap-icon"] {
@@ -112,12 +110,12 @@
 .dg-tabs .fd-tabs .fd-tabs__item:not([aria-selected="true"]) .fd-button:hover {
   border-color: var(--sapTextColor, #32363a);
 }
-.dg-tabs .fd-tabs .fd-tabs__item[aria-selected="true"] .fd-button,
-.dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-button,
-.dg-tabs .fd-tabs .fd-tabs__item:hover .fd-button {
+.dg-tabs .fd-tabs .fd-tabs__item[aria-selected="true"] .fd-tabs__tag .fd-button,
+.dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-tabs__tag .fd-button,
+.dg-tabs .fd-tabs .fd-tabs__item:hover .fd-tabs__tag .fd-button {
   visibility: visible;
 }
-.dg-tabs .fd-tabs .fd-tabs__item:not([aria-selected="true"]) .fd-button {
+.dg-tabs .fd-tabs .fd-tabs__item:not([aria-selected="true"]) .fd-tabs__tag .fd-button {
   color: var(--sapTextColor, #32363a);
 }
 .dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-button:not(:hover)>[class*="sap-icon"] {
@@ -131,6 +129,9 @@
 }
 .dg-tabs .fd-tabs .fd-tabs__item .fd-tabs__tag .description {
   font-size: .8rem;
+  opacity: 0.7;
+}
+.dg-tabs .fd-tabs.dg-blured .fd-tabs__item[role="tab"] {
   opacity: 0.7;
 }
 
@@ -182,7 +183,8 @@
 .dg-split-pane .pane-bottom {
   background-color: transparent;
 }
-.dg-explorer-toolbar .dg-backdrop {
+.dg-explorer-toolbar .dg-backdrop,
+.dg-tabs .dg-tabs-list .dg-backdrop {
   position: fixed;
   cursor: initial;
   left: 0px;
@@ -191,7 +193,8 @@
   height: 100%;
   z-index: 1;
 }
-.dg-explorer-toolbar .dg-backdrop[aria-hidden="true"] {
+.dg-explorer-toolbar .dg-backdrop[aria-hidden="true"],
+.dg-tabs .dg-tabs-list .dg-backdrop[aria-hidden="true"] {
   display: none;
 }
 .dg-explorer-toolbar .fd-toolbar__overflow-button>i {

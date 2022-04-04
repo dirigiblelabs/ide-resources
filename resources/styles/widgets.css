@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
+.dg-table--no-outer-horizontal-borders {
+  border-top: none;
+  border-bottom: none;
+}
+
+.dg-table--no-outer-vertical-borders {
+  border-left: none;
+  border-right: none;
+}

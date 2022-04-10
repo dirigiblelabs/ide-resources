@@ -34,3 +34,9 @@ body {
   position: sticky;
   bottom: 0;
 }
+
+/* Temp fix for fundamental styles issue #3300 */
+.fd-message-page__icon [class*="sap-icon"],
+.fd-message-page__icon[class*="sap-icon"] {
+  opacity: 50%;
+}

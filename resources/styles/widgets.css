@@ -40,3 +40,8 @@ body {
 .fd-message-page__icon[class*="sap-icon"] {
   opacity: 50%;
 }
+
+.fd-dialog__body.fd-scrollbar:not(.fd-dialog__body--no-vertical-padding) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

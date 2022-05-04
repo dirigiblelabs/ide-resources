@@ -104,7 +104,7 @@
 .dg-tabs .fd-tabs .fd-tabs__item .fd-tabs__tag .fd-button {
   visibility: hidden;
 }
-.dg-tabs .fd-tabs .fd-tabs__item .fd-button>[class*="sap-icon"] {
+.dg-tabs .fd-tabs .fd-tabs__item .fd-button > [class*="sap-icon"] {
   font-size: 0.75rem;
 }
 .dg-tabs .fd-tabs .fd-tabs__item:not([aria-selected="true"]) .fd-button:hover {
@@ -118,7 +118,7 @@
 .dg-tabs .fd-tabs .fd-tabs__item:not([aria-selected="true"]) .fd-tabs__tag .fd-button {
   color: var(--sapTextColor, #32363a);
 }
-.dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-button:not(:hover)>[class*="sap-icon"] {
+.dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-button:not(:hover) > [class*="sap-icon"] {
   font-size: 0.45rem;
 }
 .dg-tabs .fd-tabs .fd-tabs__item.dirty .fd-button:not(:hover) .sap-icon--decline:before {
@@ -147,7 +147,7 @@
   height: 2rem;
   min-height: 2rem;
 }
-.dg-accordion .fd-panel__button>i {
+.dg-accordion .fd-panel__button > i {
   font-size: 0.875rem;
   font-weight: 600;
 }
@@ -197,7 +197,7 @@
 .dg-tabs .dg-tabs-list .dg-backdrop[aria-hidden="true"] {
   display: none;
 }
-.dg-explorer-toolbar .fd-toolbar__overflow-button>i {
+.dg-explorer-toolbar .fd-toolbar__overflow-button > i {
   margin-right: 0.2rem;
 }
 .dg-split-pane-buttons {
@@ -210,7 +210,7 @@
   min-height: 1.5rem;
   min-width: 1.5rem;
 }
-.dg-split-pane-buttons .fd-button--compact>i {
+.dg-split-pane-buttons .fd-button--compact > i {
   font-size: 0.75rem;
 }
 .dg-splitted-tabs {

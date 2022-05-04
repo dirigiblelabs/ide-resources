@@ -35,6 +35,16 @@ body {
   bottom: 0;
 }
 
+.dg-vbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.dg-hbox {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Temp fix for fundamental styles issue #3300 */
 .fd-message-page__icon [class*="sap-icon"],
 .fd-message-page__icon[class*="sap-icon"] {

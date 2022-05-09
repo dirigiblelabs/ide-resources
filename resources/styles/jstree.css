@@ -238,7 +238,7 @@ li.jstree-loading .jstree-icon:empty {
   color: var(--sapList_Active_TextColor, #fff);
 }
 .vakata-context li > a.vakata-context-parent {
-  background-image: url("/services/v4/web/resources/images/jstree/menu-arrow-right.svg");
+  background-image: var(--jstree-menu-arrow-right, url("../fiori/menu-arrow-right.svg"));
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -433,8 +433,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
+  -webkit-mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
+  mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
 }
 .jstree-fiori .jstree-closed > .jstree-ocl {
   -webkit-mask-size: .625rem;
@@ -444,8 +444,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
+  -webkit-mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
+  mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
 }
 .jstree-fiori .jstree-leaf > .jstree-ocl {
   background-image: none;
@@ -471,8 +471,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/checkbox-unchecked.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/checkbox-unchecked.svg");
+  -webkit-mask-image: var(--jstree-checkbox-unchecked, url("../fiori/checkbox-unchecked.svg"));
+  mask-image: var(--jstree-checkbox-unchecked, url("../fiori/checkbox-unchecked.svg"));
 }
 .jstree-fiori.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox,
 .jstree-fiori .jstree-checked > .jstree-checkbox {
@@ -483,8 +483,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/checkbox-checked.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/checkbox-checked.svg");
+  -webkit-mask-image: var(--jstree-checkbox-checked, url("../fiori/checkbox-checked.svg"));
+  mask-image: var(--jstree-checkbox-checked, url("../fiori/checkbox-checked.svg"));
 }
 .jstree-fiori .jstree-anchor > .jstree-undetermined {
   -webkit-mask-size: 1rem;
@@ -494,8 +494,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/checkbox-tristate.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/checkbox-tristate.svg");
+  -webkit-mask-image: var(--jstree-checkbox-tristate, url("../fiori/checkbox-tristate.svg"));
+  mask-image: var(--jstree-checkbox-tristate, url("../fiori/checkbox-tristate.svg"));
 }
 .jstree-fiori > .jstree-striped {
   background-size: auto 44px;
@@ -504,24 +504,24 @@ li.jstree-loading .jstree-icon:empty {
   background: transparent;
 }
 .jstree-fiori.jstree-rtl .jstree-open > .jstree-ocl {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
+  -webkit-mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
+  mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
 }
 .jstree-fiori.jstree-rtl .jstree-closed > .jstree-ocl {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-left.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-left.svg");
+  -webkit-mask-image: var(--jstree-arrow-left, url("../fiori/arrow-left.svg"));
+  mask-image: var(--jstree-arrow-left, url("../fiori/arrow-left.svg"));
 }
 .jstree-fiori.jstree-rtl > .jstree-no-dots .jstree-node,
 .jstree-fiori.jstree-rtl > .jstree-no-dots .jstree-leaf > .jstree-ocl {
   background: transparent;
 }
 .jstree-fiori.jstree-rtl > .jstree-no-dots .jstree-open > .jstree-ocl {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
+  -webkit-mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
+  mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
 }
 .jstree-fiori.jstree-rtl > .jstree-no-dots .jstree-closed > .jstree-ocl {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-left.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-left.svg");
+  -webkit-mask-image: var(--jstree-arrow-left, url("../fiori/arrow-left.svg"));
+  mask-image: var(--jstree-arrow-left, url("../fiori/arrow-left.svg"));
 }
 .jstree-fiori .jstree-themeicon-custom {
   background-color: transparent;
@@ -537,8 +537,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/loading.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/loading.svg");
+  -webkit-mask-image: var(--jstree-loader, url("../fiori/loading.svg"));
+  mask-image: var(--jstree-loader, url("../fiori/loading.svg"));
 }
 .jstree-fiori .jstree-file {
   -webkit-mask-size: 1rem;
@@ -548,8 +548,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/file-code.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/file-code.svg");
+  -webkit-mask-image: var(--jstree-file, url("../fiori/file-code.svg"));
+  mask-image: var(--jstree-file, url("../fiori/file-code.svg"));
 }
 .jstree-fiori .jstree-clicked .jstree-file {
   background-color: var(--sapList_TextColor, #32363a);
@@ -562,8 +562,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/folder.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/folder.svg");
+  -webkit-mask-image: var(--jstree-folder, url("../fiori/folder.svg"));
+  mask-image: var(--jstree-folder, url("../fiori/folder.svg"));
 }
 .jstree-fiori .jstree-clicked .jstree-folder {
   background-color: var(--sapList_TextColor, #32363a);
@@ -576,14 +576,12 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
+  -webkit-mask-image: var(--jstree-project, url("../fiori/project.svg"));
+  mask-image: var(--jstree-project, url("../fiori/project.svg"));
 }
 .jstree-fiori li[git="true"] .jstree-project {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/git.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/git.svg");
-}
-.jstree-fiori li[git="false"] .jstree-project {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/project.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/project.svg");
+  -webkit-mask-image: var(--jstree-git, url("../fiori/git.svg"));
+  mask-image: var(--jstree-git, url("../fiori/git.svg"));
 }
 .jstree-fiori .jstree-clicked .jstree-project {
   background-color: var(--sapList_TextColor, #32363a);
@@ -652,8 +650,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
+  -webkit-mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
+  mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
 }
 .jstree-fiori-compact .jstree-closed > .jstree-ocl {
   -webkit-mask-size: .469rem;
@@ -663,8 +661,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
+  -webkit-mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
+  mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
 }
 .jstree-fiori-compact .jstree-leaf > .jstree-ocl {
   background-image: none;
@@ -681,8 +679,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-down.svg");
+  -webkit-mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
+  mask-image: var(--jstree-arrow-down, url("../fiori/arrow-down.svg"));
 }
 .jstree-fiori-compact > .jstree-no-dots .jstree-closed > .jstree-ocl {
   -webkit-mask-size: .469rem;
@@ -692,8 +690,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/arrow-right.svg");
+  -webkit-mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
+  mask-image: var(--jstree-arrow-right, url("../fiori/arrow-right.svg"));
 }
 .jstree-fiori-compact .jstree-disabled {
   background: transparent;
@@ -713,8 +711,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/checkbox-checked.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/checkbox-checked.svg");
+  -webkit-mask-image: var(--jstree-checkbox-checked, url("../fiori/checkbox-checked.svg"));
+  mask-image: var(--jstree-checkbox-checked, url("../fiori/checkbox-checked.svg"));
 }
 .jstree-fiori-compact .jstree-anchor > .jstree-undetermined {
   -webkit-mask-size: 1rem;
@@ -724,8 +722,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapButton_IconColor, #0854a0);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/checkbox-tristate.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/checkbox-tristate.svg");
+  -webkit-mask-image: var(--jstree-checkbox-tristate, url("../fiori/checkbox-tristate.svg"));
+  mask-image: var(--jstree-checkbox-tristate, url("../fiori/checkbox-tristate.svg"));
 }
 .jstree-fiori-compact .jstree-themeicon-custom {
   background-color: transparent;
@@ -741,8 +739,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/file-code.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/file-code.svg");
+  -webkit-mask-image: var(--jstree-file, url("../fiori/file-code.svg"));
+  mask-image: var(--jstree-file, url("../fiori/file-code.svg"));
 }
 .jstree-fiori-compact .jstree-folder {
   -webkit-mask-size: 1rem;
@@ -752,8 +750,8 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/folder.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/folder.svg");
+  -webkit-mask-image: var(--jstree-folder, url("../fiori/folder.svg"));
+  mask-image: var(--jstree-folder, url("../fiori/folder.svg"));
 }
 .jstree-fiori-compact .jstree-project {
   -webkit-mask-size: 1rem;
@@ -763,14 +761,12 @@ li.jstree-loading .jstree-icon:empty {
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--sapList_TextColor, #32363a);
+  -webkit-mask-image: var(--jstree-project, url("../fiori/project.svg"));
+  mask-image: var(--jstree-project, url("../fiori/project.svg"));
 }
 .jstree-fiori-compact li[git="true"] .jstree-project {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/git.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/git.svg");
-}
-.jstree-fiori-compact li[git="false"] .jstree-project {
-  -webkit-mask-image: url("/services/v4/web/resources/images/jstree/project.svg");
-  mask-image: url("/services/v4/web/resources/images/jstree/project.svg");
+  -webkit-mask-image: var(--jstree-git, url("../fiori/git.svg"));
+  mask-image: var(--jstree-git, url("../fiori/git.svg"));
 }
 .jstree-fiori-compact > .jstree-container-ul > .jstree-node {
   margin-left: 0;

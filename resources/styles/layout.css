@@ -73,6 +73,7 @@
 }
 .dg-tabs .dg-tabs-content {
   flex-grow: 1;
+  min-height: 0;
 }
 .dg-tabs .fd-tabs {
   flex-wrap: nowrap;

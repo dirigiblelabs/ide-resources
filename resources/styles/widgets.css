@@ -80,6 +80,17 @@ body {
   background-position: 0 0, 8px 8px;
 }
 
+.dg-menu__sublist--overflow {
+  overflow-y: auto;
+  max-height: 264px;
+  flex-wrap: nowrap;
+  background-color: var(--sapList_Background, #fff);
+}
+
+.dg-menu__sublist--overflow .fd-menu__separator {
+  padding-top: .0625rem;
+}
+
 /* Temp fix for fundamental styles issue #3300 */
 .fd-message-page__icon [class*="sap-icon"],
 .fd-message-page__icon[class*="sap-icon"] {

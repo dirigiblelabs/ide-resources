@@ -35,12 +35,6 @@ body {
   flex-wrap: nowrap;
   background-color: var(--sapList_Background, #fff);
 }
-.dg-menu__sublist--overflow {
-  overflow-y: auto;
-  max-height: 264px;
-  flex-wrap: nowrap;
-  background-color: var(--sapList_Background, #fff);
-}
 .dg-fixed-menu {
   position: fixed;
   top: 0;

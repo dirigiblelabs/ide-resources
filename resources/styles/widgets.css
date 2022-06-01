@@ -91,6 +91,34 @@ body {
   padding-top: .0625rem;
 }
 
+.dg-popover--align-bottom-end {
+  left: auto;
+  right: var(--sapGroup_BorderWidth);
+}
+
+.dg-popover--align-top-start {
+  top: auto;
+  bottom: 100%;
+}
+
+.dg-popover--align-top-end {
+  top: auto;
+  bottom: 100%;
+  left: auto;
+  right: var(--sapGroup_BorderWidth);
+}
+
+.dg-popover--align-left-start {
+  top: var(--sapGroup_BorderWidth);
+  left: 100%;
+}
+
+.dg-popover--align-left-end {
+  top: auto;
+  left: 100%;
+  bottom: var(--sapGroup_BorderWidth);
+}
+
 /* Temp fix for fundamental styles issue #3300 */
 .fd-message-page__icon [class*="sap-icon"],
 .fd-message-page__icon[class*="sap-icon"] {

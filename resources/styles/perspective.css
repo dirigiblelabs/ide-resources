@@ -215,6 +215,12 @@ body {
   position: fixed;
 }
 /* Dialogs and Windows */
+#dgIdeFormDialog .fd-form-group .fd-form-item {
+  margin-bottom: 1rem;
+}
+#dgIdeFormDialog .fd-form-group .ng-scope:last-child > .fd-form-item {
+  margin-bottom: 0;
+}
 .dg-window-body {
   padding: 0 !important;
 }

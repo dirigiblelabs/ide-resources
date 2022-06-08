@@ -114,12 +114,12 @@ body {
   right: var(--sapGroup_BorderWidth);
 }
 
-.dg-popover--align-left-start {
+.dg-popover--align-right-start {
   top: var(--sapGroup_BorderWidth);
   left: 100%;
 }
 
-.dg-popover--align-left-end {
+.dg-popover--align-right-end {
   top: auto;
   left: 100%;
   bottom: var(--sapGroup_BorderWidth);

@@ -152,12 +152,7 @@ body {
 .fd-container.fd-form-layout-grid-container .fd-popover__body {
   z-index: 5;
 }
-/* Temp fix for fundamental styles issue #3300 */
-.fd-message-page__icon [class*="sap-icon"],
-.fd-message-page__icon[class*="sap-icon"] {
-  opacity: 50%;
-}
-
+/* Dialog padding fixes */
 .fd-dialog__body.fd-scrollbar:not(.fd-dialog__body--no-vertical-padding) {
   padding-top: 1rem;
   padding-bottom: 1rem;

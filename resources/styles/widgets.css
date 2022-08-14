@@ -81,6 +81,10 @@ body {
   overflow: inherit;
 }
 
+.dg-vbox > .fd-toolbar {
+  flex-shrink: 0;
+}
+
 .dg-hbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,6 +103,10 @@ body {
 
 .dg-hbox > .fd-title {
   overflow: inherit;
+}
+
+.dg-hbox > .fd-toolbar {
+  flex-shrink: 0;
 }
 
 .dg-center {

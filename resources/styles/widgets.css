@@ -272,6 +272,10 @@ body {
 .fd-container.fd-form-layout-grid-container .fd-row .fd-col .fd-select__control {
   margin: 0;
 }
+/* Combobox and Select (when in toolbar) margin fixes */
+.fd-toolbar .fd-popover .fd-input-group {
+  margin: 0;
+}
 .dg-backdrop {
   display: none;
   background-color: transparent;

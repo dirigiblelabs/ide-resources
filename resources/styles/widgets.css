@@ -281,8 +281,18 @@ body {
 .dg-font--italic {
   font-style: italic;
 }
-.dg-restrict-width {
+.dg-restrict-width--sm {
+  max-width: 600px;
+}
+.dg-restrict-width,
+.dg-restrict-width--lg {
   max-width: 1024px;
+}
+.dg-restrict-width--lg {
+  max-width: 1280px;
+}
+.dg-restrict-width--xl {
+  max-width: 1600px;
 }
 /* fd-page helper classes */
 .dg-page__content-card {
